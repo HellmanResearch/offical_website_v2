@@ -1,0 +1,13 @@
+.footer{
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background: #ffffff;
+    box-shadow: 0px 2px 4px 0px rgba(51,70,129,0.10), 0px -1px 0px 0px #e8ecef inset; 
+    position: sticky;
+    top: 0;
+    z-index: 999;
+   
+}

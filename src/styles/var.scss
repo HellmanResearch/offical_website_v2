@@ -1,0 +1,30 @@
+:root {
+  --color-FFFFFF: #FFFFFF;
+  --color-000000:#000000;
+  --color-1667FF: #1667FF;
+  --color-3BB4C0:#3BB4C0;
+  --color-FFE867:#FFE867;
+  --color-EA4949:#EA4949;
+  --color-334681:#334681;
+  --color-A9A9A9:#A9A9A9;
+  --color-363636:#363636;
+}
+
+
+@media screen and (max-width: 1439px) {
+  :root {
+    --contentWidth: 90%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  :root {
+    --contentWidth: 1280px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  :root {
+    --contentWidth: 1600px;
+  }
+}

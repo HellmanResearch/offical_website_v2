@@ -1,0 +1,33 @@
+.font78{
+    font-size: 16rem;
+    line-height: 14rem;
+    color: #fff;
+    margin-bottom: 3rem;
+    letter-spacing: 3px;
+    white-space: pre-wrap;
+    font-weight: 200;
+}
+.font44{
+    font-size: 6rem;
+    line-height: 6.5rem;
+    color: #fff;
+    white-space: pre-wrap;
+    margin-bottom: 2rem;
+}
+
+.font30{
+    font-size: 4rem;
+    line-height: 4.4rem;
+    color: #fff;
+    white-space: pre-wrap;
+    margin-bottom: 2rem;
+}
+
+.font20{
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    color: #fff;
+    white-space: pre-wrap;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+}

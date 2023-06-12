@@ -1,0 +1,92 @@
+.our-value{
+    position: relative;
+    .bg{
+        width: 100%;
+    }
+    .our-value-content{
+        width: 100%;
+        height: 100%;
+        padding: 0 15rem;
+        box-sizing: border-box;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        flex-direction: column;
+
+        :global{
+            .font44{
+                font-size: 9rem;
+                line-height: 9rem;
+                letter-spacing: 3px;
+                font-weight: 200;
+            }
+        }
+        .value-title{
+            position: absolute;
+            left: 15rem;
+            top: 8rem;
+        }
+        .values{
+            width: calc(100% - 30rem);
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            column-gap: 3rem;
+            .value-item{
+                flex: 1;
+                flex-shrink: 0;
+            }
+            .item-title{
+                font-weight: bold;
+            }
+            .text{
+                padding-left: 20px;
+                position: relative;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    left: -10px;
+                    top:1.3rem;
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 4px;
+                    background: #fff;
+                }
+            }
+        }      
+    }
+
+    @media (max-width: 1024px) {
+        .our-value-content{
+            padding: 0 5rem;
+            .value-title{
+                position: absolute;
+                left: 5rem;
+                top: 3rem;
+            }
+            .values{
+                width: calc(100% - 10rem);
+            }
+            :global{
+                .font44{
+                    font-size: 3rem;
+                    line-height: 3.2rem;
+                }
+                .font30{
+                    font-size: 2.4rem;
+                    line-height: 2.8rem;
+                }
+                .font20{
+                    font-size: 1.6rem;
+                    line-height: 2rem;
+                }
+            }
+        }
+    }
+}

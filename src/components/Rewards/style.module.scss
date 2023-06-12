@@ -1,0 +1,90 @@
+.rewards{
+    position: relative;
+    .bg{
+        width: 100%;
+    }
+    .grants{
+        width: 8.6rem;
+        height: 8.6rem;
+        position: absolute;
+        right: 10rem;
+        top: 10rem;
+        img{
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+        .text{
+            font-size: 2rem;
+            color: #fff;
+            text-align: center;
+        }
+    }
+    .rewards-content{
+        width: 100%;
+        padding: 0 15rem;
+        box-sizing: border-box;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .left,.right{
+            flex: 1;
+            flex-shrink: 0;
+            :global{
+                .mb60{
+                    margin-bottom: 6rem;
+                }
+                .font44{
+                    font-size: 12rem;
+                    line-height: 12rem;
+                    letter-spacing: 3px;
+                    font-weight: 200;
+                }
+            }
+        }
+        .underline{
+            cursor: pointer;
+            text-decoration: underline;
+            text-align: right;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        .grants{
+            width: 6rem;
+            height: 6rem;
+            position: absolute;
+            right: 5rem;
+            top: 5rem;
+            img{
+                width: 100%;
+                margin-bottom: 1rem;
+            }
+            .text{
+                font-size: 1.6rem;
+            }
+        }
+        .rewards-content{
+            padding: 0 5rem;
+            .right{
+                :global{
+                    .font44{
+                        font-size: 3rem;
+                        line-height: 3.2rem;
+                    }
+                    .font30{
+                        font-size: 2.4rem;
+                        line-height: 2.8rem;
+                    }
+                    .font20{
+                        font-size: 1.6rem;
+                        line-height: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}
